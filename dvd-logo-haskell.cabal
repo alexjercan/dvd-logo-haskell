@@ -2,33 +2,19 @@ cabal-version:      2.4
 name:               dvd-logo-haskell
 version:            0.1.0.0
 
--- A short (one-line) description of the package.
--- synopsis:
+synopsis:           A simple program that simulates the DVD logo bouncing around the screen.
+description:        This is a simple program that simulates the DVD logo bouncing around the screen.
 
--- A longer description of the package.
--- description:
-
--- A URL where users can report bugs.
--- bug-reports:
-
--- The license under which the package is released.
--- license:
+license:            MIT
 author:             Alex Jercan
 maintainer:         jercan_alex27@yahoo.com
 
--- A copyright notice.
--- copyright:
--- category:
+category:           Graphics
 extra-source-files: CHANGELOG.md
 
 executable dvd-logo-haskell
     main-is:          Main.hs
 
-    -- Modules included in this executable, other than Main.
-    -- other-modules:
-
-    -- LANGUAGE extensions used by modules in this package.
-    -- other-extensions:
     build-depends:    base ^>=4.18.0.0,
                       gloss ^>= 1.13.2.2,
                       random ^>= 1.2.1.1,
